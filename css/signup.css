@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+ 
+ body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 80vh;
+    width: 70vh;
+ }
+
+.signup-form input {
+    margin: 8px;
+    margin-left: 40px;
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+
+}
+
+ .signup-form h1 {
+    font-size: 40px;
+    margin: 40px;
+    text-align: center;
+ }
+
+.signup-check {
+    margin-top: 30px;
+}
+
+.signup-check button{  
+    margin: auto;
+    display: block;
+    width: 50%; height: 50px;
+    background: #166cea;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+}
+
+.id-check{
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 15%;
+    height: 30px;
+    background-color: #166cea;
+}
