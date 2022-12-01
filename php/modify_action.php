@@ -15,7 +15,7 @@
 
     <script>
         alert("수정되었습니다.");
-        location.replace("read.php?no=<? $no ?>");
+        location.replace("read.php?no=<?= $no ?>");
     </script>
 
 <?php
