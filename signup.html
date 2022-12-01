@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>회원가입</title>
+        <link rel = "stylesheet" href = "signup.css">
+        <script src = "signup.js"></script>
+        <script src="idcheck.js"></script>
+    </head>
+
+    <body>
+        <form class = "signup-form" action="signup.php" method="post" enctype="multipart/form-data" name="join_form">
+            <h1>회원가입</h1>
+
+            <div class = "check">
+                <input type = "text" name = "id" id = "id" placeholder="아이디"> 
+            </div>
+
+            <div class = "check">
+                <input type = "password" name = "pw" id = "pw" placeholder="비밀번호">
+            </div> 
+
+            <div class = "check">
+                <input type = "password" name = "pwc" id = "pwc" placeholder="비밀번호 확인">
+            </div>
+
+            <div class = "check">
+                <input type = "text" name = "NickName" id = "NickName" placeholder="닉네임">
+            </div>
+
+            <div class = "check">
+                <input type = "text" name = "name" id = "name" placeholder="이름">
+            </div>
+
+            <div class = "check">
+                <input type = "text" name = "tel" id = "tel" placeholder="휴대폰 번호">
+            </div>
+
+
+            <div class = "signup-check">
+                <button type = "button" id = "btn" name = "btn" onclick="joinform_check()">회원가입</button>
+            </div>
+        </form>
+    </body>
+</html>
