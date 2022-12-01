@@ -5,7 +5,7 @@
     $title = $_POST['title'];
     $content = $_POST['content'];
 
-    $date = date('Y-m-d H:i:s');
+    $date = date('Y-m-d');
 
     $query = "update board set title = '$title', content = '$content', date = '$date' where no = $no";
     $result = $connect->query($query);
